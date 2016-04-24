@@ -5,14 +5,14 @@ import java.util.*;
 
 public class Main {
 
-    static int[] Ag1 = {0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0};
-    static int[] Ag2 = {1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1};
-    static int[] Ag3 = {1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1};
+    static private int[] Ag1 = {0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0};
+    static private int[] Ag2 = {1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1};
+    static private int[] Ag3 = {1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1};
 
 
-    static List<Antibody> antibodyList = new ArrayList<Antibody>();
+    static private List<Antibody> antibodyList = new ArrayList<Antibody>();
 
-    static Random random = new Random();
+    static private Random random = new Random();
 
 
     // from min to max
