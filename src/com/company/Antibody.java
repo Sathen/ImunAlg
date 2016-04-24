@@ -18,9 +18,11 @@ public class Antibody {
 
     public Antibody(String name) {
         this.name = name;
-        this.x1 = new int[22];
+        this.x1 = new int [22];
+        this.x2 = new int [22];
         for (int i = 0; i < x1.length; i++) {
             this.x1[i] = r.nextInt(2);
+            this.x2[i] = r.nextInt(2);
         }
         affinity = 0;
         countofclone = 0;
