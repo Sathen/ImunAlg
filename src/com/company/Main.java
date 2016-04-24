@@ -45,6 +45,10 @@ public class Main {
         antibodyList.add(new Antibody("Ab4"));
         antibodyList.add(new Antibody("Ab5"));
         antibodyList.add(new Antibody("Ab6"));
+        antibodyList.add(new Antibody("Ab7"));
+        antibodyList.add(new Antibody("Ab8"));
+        antibodyList.add(new Antibody("Ab9"));
+        antibodyList.add(new Antibody("Ab10"));
 
 
         int gen = 50;
