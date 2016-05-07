@@ -8,7 +8,7 @@ public class Antibody {
     private String name;
     private int[] x1;
     private int[] x2;
-    private int affinity;
+    private double affinity;
     private int countofclone;
     private double pMutation;
     private int positionInPopulation;
@@ -31,7 +31,7 @@ public class Antibody {
     }
 
     public Antibody(Antibody ab) {
-        // this.name = ab.getName();
+         this.name = ab.getName();
         this.x1 = new int[22];
         this.x2 = new int[22];
 
@@ -97,11 +97,11 @@ public class Antibody {
     }
 
 
-    public int getAffinity() {
+    public double getAffinity() {
         return affinity;
     }
 
-    public void setAffinity(int affinity) {
+    public void setAffinity(double affinity) {
         this.affinity = affinity;
     }
 }
